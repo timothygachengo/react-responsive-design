@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cover_img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .cover_img {
+    width: 50%;
+  }
+}
