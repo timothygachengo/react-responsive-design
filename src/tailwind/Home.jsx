@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import testImg from './assets/house.jpg';
+import testImg from '../assets/house.jpg';
 
 const Home = () => {
     return (

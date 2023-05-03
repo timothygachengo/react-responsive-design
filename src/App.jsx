@@ -1,5 +1,5 @@
-import * as React from 'react'
-import Home from './Home'
+import React from 'react';
+import Router from './router'
 
 
 
@@ -7,8 +7,9 @@ function App() {
 
   return (
     <>
-     <Home />
+    <Router />
     </>
+
   )
 }
 
