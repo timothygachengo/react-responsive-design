@@ -9,16 +9,17 @@ const InputField = ({ label, type, required, className, placeholder, autoComplet
         <label className="font-bold">{label}</label>
         {required && <span className="text-red-500">*</span>}
       </div>
-      { type === 'tel' | 'phone'? <PhoneNumberInputField required={required} /> : 
-        <input 
+      {type === 'tel' | 'phone' ? <PhoneNumberInputField required={required} /> :
+        <input
           type={type}
           placeholder={placeholder}
           required={required}
           autoComplete={autoComplete}
           className={className || 'border border-[#000000] rounded-md outline-none p-2 md:p-3'} />
       }
-    </div>
     
+    </div>
+
   )
 }
 
